@@ -1,0 +1,8 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls
+      - run: python3 main.py

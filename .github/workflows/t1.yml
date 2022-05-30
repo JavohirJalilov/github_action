@@ -6,7 +6,7 @@ jobs:
     steps:  
       - uses: actions/checkout@v2
       - run: ls
-      - run: python3 main.py
       - run: pip3 install numpy
+      - run: python3 main.py
       - run: pip3 install pytest
       - run: pytest
